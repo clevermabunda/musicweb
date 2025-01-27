@@ -35,7 +35,7 @@ This is a musical website, aim to provide you with information about your favori
 
 4. docker run -d -p 8000:8000 -e "ENV_VAR_NAME=value" musicweb
 
-5. run 127.0.0.1:8000 to open the websit
+5. run 127.0.0.1:8000 to open the browser.
 
 
 
