@@ -19,11 +19,11 @@ RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
 # Step 6: Copy the rest of your application code into the container
-COPY . .
+COPY band .
 
 # Step 7: Set the environment variable for Django settings (optional)
 # This step is optional if you're setting Django settings using environment variables
-ENV DJANGO_SETTINGS_MODULE=myproject.settings
+ENV DJANGO_SETTINGS_MODULE=band.settings
 
 # Step 8: Expose the port the app will run on
 EXPOSE 8000
